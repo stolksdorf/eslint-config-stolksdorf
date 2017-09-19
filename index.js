@@ -1,6 +1,7 @@
 module.exports = {
 	env : {
-		node : true
+		node : true,
+		es6 : true
 	},
 	rules   : {
 		/** Errors **/
@@ -20,11 +21,6 @@ module.exports = {
 		}],
 		'max-params'           : ['warn', {max: 4}],
 		'no-restricted-syntax' : ['warn', 'ClassDeclaration', 'SwitchStatement'],
-		'no-unused-vars'       : ['warn', {
-			vars              : 'all',
-			args              : 'none',
-			varsIgnorePattern : 'config|_|cx|createClass'
-		}],
 
 		/** Fixable **/
 		'arrow-parens'    : ['warn', 'always'],

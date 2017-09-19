@@ -4,8 +4,8 @@ Eslint config for my projects
 
 ### use
 
-- `npm install --save-dev eslint eslint-config-stolksdorf && touch .eslintrc.js`
-- For react projects: `npm install --save-dev eslint eslint-plugin-react eslint-config-stolksdorf && .eslintrc.js`
+- `npm install --save-dev eslint eslint-config-stolksdorf`
+- For react projects: `npm install --save-dev eslint eslint-plugin-react eslint-config-stolksdorf`
 
 ### `package.json`
 ```
@@ -27,9 +27,9 @@ scripts : {
 ```js
 // .eslintrc.js
 module.exports = {
-  'root': true,
-  'extends': 'stolkdorf',
-  'rules': {
+  root: true,
+  extends: 'stolksdorf',
+  rules: {
     //put project overrides here
   }
 };
@@ -46,9 +46,9 @@ If you have a react project:
 ```js
 // .eslintrc.js
 module.exports = {
-  'root': true,
-  'extends': 'stolkdorf/react',
-  'rules': {
+  root: true,
+  extends: 'stolksdorf/react',
+  rules: {
     //put project overrides here
   }
 };
