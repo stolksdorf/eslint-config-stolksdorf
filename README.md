@@ -9,8 +9,7 @@ Eslint config for my projects
 
 ### `package.json`
 ```
-scripts : {
-  //...
+"scripts" : {
   "lint": "eslint --fix *.js **/*.{js,jsx}",
   "lint:dry": "eslint *.js **/*.{js,jsx}"
 },
@@ -24,8 +23,8 @@ scripts : {
 - Modify `eslintIgnore` in your package to ignore any built or un-lintable files.
 
 
+#### `.eslintrc.js`
 ```js
-// .eslintrc.js
 module.exports = {
   root: true,
   extends: 'stolksdorf',
@@ -40,8 +39,6 @@ module.exports = {
 
 ### react
 If you have a react project:
-
-- `npm install --save-dev eslint-plugin-react`
 
 ```js
 // .eslintrc.js
