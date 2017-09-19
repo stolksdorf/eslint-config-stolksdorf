@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-stolksdorf",
+  "version": "1.0.0",
+  "description": "My personal eslint configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stolksdorf/eslint-config-stolksdorf.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "stolksdorf"
+  ],
+  "author": "stolksdorf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stolksdorf/eslint-config-stolksdorf/issues"
+  },
+  "homepage": "https://github.com/stolksdorf/eslint-config-stolksdorf#readme"
+}
